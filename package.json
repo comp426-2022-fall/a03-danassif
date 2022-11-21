@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Module Based Line Node.js Package",
   "main": "./lib/roll.js",
+  "type": "module",
   "scripts": {
     "test": "roll-dice --sides=10 --dice=2 --rolls=3"
   },
