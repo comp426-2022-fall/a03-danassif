@@ -9,3 +9,5 @@ let dice = args.dice;
 let rolls = args.rolls;
 
 let output = roll(sides, dice, rolls);
+output = JSON.stringify(output);
+console.log(output);
