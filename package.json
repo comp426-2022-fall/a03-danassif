@@ -5,7 +5,7 @@
   "main": "./lib/roll.js",
   "type": "module",
   "scripts": {
-    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
+    "test": "roll-dice --sides=6 --dice=2 --rolls=1"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
     "minimist": "^1.2.7"
   },
   "bin": {
-	  "roll-dice": "./bin/cli.js"
+    "roll-dice": "./bin/cli.js"
   }
 }
